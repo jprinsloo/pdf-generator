@@ -4,7 +4,6 @@
 
 @synthesize hasPendingOperation;
 
-// efwefew
 -( void (^)(NSError *error))GetErrorHandler:(CDVInvokedUrlCommand*)command   {
     
     void (^ErrorHandling)(NSError *error) = ^(NSError *error){
